@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TranslateForm } from "../components/translate-form/translate-form";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TranslateForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
