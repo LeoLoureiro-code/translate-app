@@ -6,12 +6,77 @@
 .translate-form{
     width: 100%;
     height: 24.1rem;
-    background-color: #010638;
+    background-color: rgba(32, 35, 50, 0.877);
     margin-top: 2.4rem;
     border-radius: 25px;
+    padding-top: 1rem;
 }
 
 .translate-options-list{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    list-style: none;
+    margin: 0 1rem 0 1rem;
+}
+
+.translate-option{
+    width: 80px;
+    height: 50px;
+}
+
+.button-option, .select-options, option{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #f1f0f0;
+    font-size: 14px;
+}
+
+.button-option:active{
+    background-color: #6e7781;
+    border-radius: 20px;
+}
+
+.select-options{
+    margin-left: 1rem;
+
+
+    option{
+        background-color: rgba(32, 35, 50, 0.877);
+    }
+}
+
+
+.detect-option{
+    width: 150px;
+}
+
+select{
+    text-decoration: none;
+}
+
+hr{
+    display: block;
+    border: 1px solid rgba(103, 103, 104, 0.301);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+
+.text-div{
+    width: 100%;
+
+    .translate-text{
+        width: 100%;
+        height: 12rem;
+        background-color: transparent;
+        border: none;
+        padding: 1.5rem;
+        color: #f1f0f0;
+        font-size: 20px;
+    
+    }
 }
