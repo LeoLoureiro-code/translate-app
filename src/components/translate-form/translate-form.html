@@ -15,8 +15,8 @@
     </div>
     <hr>
     <div class="text-div">
-        <textarea name="" id="" class="translate-text"></textarea>
-        <span class="character counter">/500</span>
+        <textarea name="" id="" class="translate-text" onclick="countCharacters()"></textarea>
+        <p class="character-counter"><span class="character-used">{{charactersTyped}}</span>/500</p>
     </div>
    
         <!--Add better names-->
@@ -24,18 +24,18 @@
         <div class="text-options">
         <ol class="text-option-list">
             <li class="text-option">
-                <button>
+                <button class="text-option-button">
                     <img src="assets/images/sound_max_fill.svg" alt="sound icon" class="sound-img">
                 </button>
             </li>
             <li class="text-option">
-                <button>
+                <button class="text-option-button">
                     <img src="assets/images/Copy.svg" alt="copy icon" class="copy-img">
                 </button>
             </li>
         </ol>
         </div>
-        <button>Translate</button>
+        <button class="translate-button"><img src="assets/images/Sort_alfa.svg" alt=" letter logo" class="translate-button-img"> Translate</button>
     </div>
 
 </form>
