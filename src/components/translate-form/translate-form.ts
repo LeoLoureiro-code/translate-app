@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TranslateForm {
 
+  charactersTyped: number = 0;
+
+  countCharacters(){
+    
+  }
 }
