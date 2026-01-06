@@ -15,7 +15,8 @@
     </div>
     <hr>
     <div class="text-div">
-        <textarea name="" id="" class="translate-text" onclick="countCharacters()"></textarea>
+        <textarea name="" id="" [formControl]="textArea" class="translate-text" onchange="countCharacters()"></textarea>
+        <!--Change style to not cover the counter-->
         <p class="character-counter"><span class="character-used">{{charactersTyped}}</span>/500</p>
     </div>
    
