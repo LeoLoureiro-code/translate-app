@@ -1,18 +1,5 @@
 <form class="translate-form">
-    <div class="translate-options">
-        <ol class="translate-options-list">
-            <li class="translate-option detect-option"><button class="button-option ">Detect language</button></li>
-            <li class="translate-option"><button class="button-option">English</button></li>
-            <li class="translate-option"><button class="button-option">Spanish</button></li>
-            <li class="translate-option">
-                <select id="role" class="select-options" name="role">
-                <option value="Russian">Russian</option>
-                <option value="French">French</option>
-                <option value="Italian">Italian</option>
-                </select>
-            </li>
-        </ol>
-    </div>
+    <translate-options></translate-options>
     <hr>
     <div class="text-div">
         <textarea name="" id="" [formControl]="textArea" class="translate-text" onchange="countCharacters()"></textarea>
@@ -20,22 +7,8 @@
         <p class="character-counter"><span class="character-used">{{charactersTyped}}</span>/500</p>
     </div>
    
-        <!--Add better names-->
     <div class="text-options-div">
-        <div class="text-options">
-        <ol class="text-option-list">
-            <li class="text-option">
-                <button class="text-option-button">
-                    <img src="assets/images/sound_max_fill.svg" alt="sound icon" class="sound-img">
-                </button>
-            </li>
-            <li class="text-option">
-                <button class="text-option-button">
-                    <img src="assets/images/Copy.svg" alt="copy icon" class="copy-img">
-                </button>
-            </li>
-        </ol>
-        </div>
+        <text-options></text-options>
         <button class="translate-button"><img src="assets/images/Sort_alfa.svg" alt=" letter logo" class="translate-button-img"> Translate</button>
     </div>
 

@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ReactiveFormsModule, FormControl, Validators } from '@angular/forms';
+import { TranslateOptions } from "../translate-options/translate-options";
+import { TextOptions } from "../text-options/text-options";
 
 @Component({
   selector: 'translate-form',
   standalone: true,               
-  imports: [ReactiveFormsModule], 
+  imports: [ReactiveFormsModule, TranslateOptions, TextOptions], 
   templateUrl: './translate-form.html',
   styleUrl: './translate-form.scss',
 })
