@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslateOptions } from "../translate-options/translate-options";
 
 @Component({
-  selector: 'app-result-form',
-  imports: [],
+  selector: 'result-form',
+  imports: [TranslateOptions],
   templateUrl: './result-form.html',
   styleUrl: './result-form.scss',
 })
