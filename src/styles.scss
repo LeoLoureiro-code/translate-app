@@ -1,3 +1,9 @@
+:root{
+    --mobile-size: 480px;
+    --tablet-size: 700px;
+    --desktop-size: 1200px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +11,11 @@
 }
 
 .container{
-    height: 100vh;
-    background-image: url("../public/assets/images/hero_img.jpg");
+    background-image: url("../public/assets/images/hero_img-sm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
 .logo-div{
@@ -17,4 +24,12 @@
     justify-content: center;
     align-items: center;
     padding-top: 2.5rem;
+}
+
+.separation-line{
+    display: block;
+    border: 1px solid rgba(103, 103, 104, 0.301);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
 }

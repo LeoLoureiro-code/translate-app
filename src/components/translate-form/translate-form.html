@@ -1,15 +1,14 @@
 <form class="translate-form">
     <translate-options></translate-options>
-    <hr>
+    <hr class="separation-line">
     <div class="text-div">
         <textarea name="" id="" [formControl]="textArea" class="translate-text" onchange="countCharacters()"></textarea>
-        <!--Change style to not cover the counter-->
+        <!--Change style to not cover the counter
+            This could be made relative and block element cover all width-->
         <p class="character-counter"><span class="character-used">{{charactersTyped}}</span>/500</p>
     </div>
-   
     <div class="text-options-div">
         <text-options></text-options>
         <button class="translate-button"><img src="assets/images/Sort_alfa.svg" alt=" letter logo" class="translate-button-img"> Translate</button>
     </div>
-
 </form>

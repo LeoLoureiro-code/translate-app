@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-text-options',
+  selector: 'text-options',
   imports: [],
   templateUrl: './text-options.html',
   styleUrl: './text-options.scss',

@@ -1,15 +1,18 @@
 .text-options {
   display: flex;
   align-items: center;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .text-option-list {
   display: flex;
   list-style: none;
-  width: 100px;
+  width: 80px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 0.8rem;
+
 }
 
 .text-option {
@@ -25,20 +28,4 @@
     border: 1px solid #6e7781;
     outline: none;
   }
-}
-
-.translate-button {
-  background-color: #273fa8;
-  color: #f1f0f0;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  outline: none;
-  border: none;
-  width: 150px;
-  height: 50px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
