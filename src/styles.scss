@@ -1,8 +1,8 @@
-:root{
-    --mobile-size: 480px;
-    --tablet-size: 700px;
-    --desktop-size: 1200px;
-}
+
+$mobile-size: 480px;
+$tablet-size: 700px;
+$desktop-size: 1200px;
+
 
 *{
     margin: 0;
@@ -14,8 +14,16 @@
     background-image: url("../public/assets/images/hero_img-sm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-
+.translate-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-div{
