@@ -1,6 +1,6 @@
 
 $mobile-size: 480px;
-$tablet-size: 700px;
+$tablet-size: 1020px;
 $desktop-size: 1200px;
 
 
@@ -16,6 +16,8 @@ $desktop-size: 1200px;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -24,6 +26,10 @@ $desktop-size: 1200px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: $tablet-size) {
+       width: 1020px;
+    }
 }
 
 .logo-div{
@@ -32,6 +38,10 @@ $desktop-size: 1200px;
     justify-content: center;
     align-items: center;
     padding-top: 2.5rem;
+
+    @media (min-width: $tablet-size) {
+       padding-top: 5.8rem;
+    }
 }
 
 .separation-line{
