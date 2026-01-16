@@ -1,53 +1,76 @@
-
 $mobile-size: 480px;
 $tablet-size: 1020px;
 $desktop-size: 1200px;
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    background-image: url("../public/assets/images/hero_img-sm.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.container {
+  background-image: url('../public/assets/images/hero_img-sm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.translate-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.translate-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    @media (min-width: $tablet-size) {
-       width: 1020px;
-    }
+  @media (min-width: $tablet-size) {
+    width: 1020px;
+  }
 }
 
-.logo-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2.5rem;
+.logo-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
 
-    @media (min-width: $tablet-size) {
-       padding-top: 5.8rem;
-    }
+  @media (min-width: $tablet-size) {
+    padding-top: 5.8rem;
+  }
 }
 
-.separation-line{
-    display: block;
-    border: 1px solid rgba(103, 103, 104, 0.301);
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 5px;
+.separation-line {
+  display: block;
+  border: 1px solid rgba(103, 103, 104, 0.301);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.translate-btn {
+  background-color: #273fa8;
+  border: 1px solid #f1f0f0;
+  color: #f1f0f0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  outline: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-option-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #6e7781;
+  outline: none;
 }
